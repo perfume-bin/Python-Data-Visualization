@@ -1,0 +1,50 @@
+2022-06-01 17:59:23 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: lianjia)
+2022-06-01 17:59:23 [scrapy.utils.log] INFO: Versions: lxml 4.6.3.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.2.0, Python 3.8.8 (default, Apr 13 2021, 15:08:03) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 20.0.1 (OpenSSL 1.1.1m  14 Dec 2021), cryptography 3.4.7, Platform Windows-10-10.0.19041-SP0
+2022-06-01 17:59:23 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'lianjia',
+ 'DOWNLOAD_DELAY': 2,
+ 'DUPEFILTER_CLASS': 'scrapy.dupefilters.BaseDupeFilter',
+ 'FEED_EXPORT_ENCODING': 'gbk',
+ 'LOG_FILE': 'lianjia.log',
+ 'NEWSPIDER_MODULE': 'lianjia.spiders',
+ 'SPIDER_MODULES': ['lianjia.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+               '(KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+2022-06-01 17:59:23 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2022-06-01 17:59:23 [scrapy.extensions.telnet] INFO: Telnet Password: 9479b8bd620394b5
+2022-06-01 17:59:23 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2022-06-01 17:59:24 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-06-01 17:59:24 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-06-01 17:59:24 [scrapy.middleware] INFO: Enabled item pipelines:
+['lianjia.pipelines.LianjiaPipeline']
+2022-06-01 17:59:24 [scrapy.core.engine] INFO: Spider opened
+2022-06-01 17:59:24 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-06-01 17:59:24 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-06-01 17:59:29 [filelock] DEBUG: Attempting to acquire lock 2304884854448 on D:\anaconda\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-06-01 17:59:29 [filelock] INFO: Lock 2304884854448 acquired on D:\anaconda\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-06-01 17:59:29 [filelock] DEBUG: Attempting to acquire lock 2304884987168 on D:\anaconda\lib\site-packages\tldextract\.suffix_cache/urls\62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
+2022-06-01 17:59:29 [filelock] INFO: Lock 2304884987168 acquired on D:\anaconda\lib\site-packages\tldextract\.suffix_cache/urls\62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
+2022-06-01 17:59:29 [filelock] DEBUG: Attempting to release lock 2304884987168 on D:\anaconda\lib\site-packages\tldextract\.suffix_cache/urls\62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
+2022-06-01 17:59:29 [filelock] INFO: Lock 2304884987168 released on D:\anaconda\lib\site-packages\tldextract\.suffix_cache/urls\62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
+2022-06-01 17:59:29 [filelock] DEBUG: Attempting to release lock 2304884854448 on D:\anaconda\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-06-01 17:59:29 [filelock] INFO: Lock 2304884854448 released on D:\anaconda\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-06-01 17:59:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bj.lianjia.com/zufang> (referer: None)
